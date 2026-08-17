@@ -34,6 +34,9 @@ export const metadata = {
     images: ["/images/claypot-rice.jpg"],
   },
   robots: { index: true, follow: true },
+  verification: {
+    google: "ayHXvvh7MAYyEd0yabm5xYrI98qeN_1bfcLkvUPkbrM",
+  },
 };
 
 export default function RootLayout({ children }) {
